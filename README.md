@@ -30,3 +30,19 @@
    https://sha256algorithm.com/  
    - This website helped me see how the SHA-1 and SHA-256 functions work in practice.  
    - It gave an easy explanation of how the bitwise operations mix data to make a secure hash.
+
+## Further reading / Tutorials
+
+- **YouTube:** https://www.youtube.com/watch?v=PbFVTb7Pndc  
+  - Helped me understand hashing at a high level.  
+  - The visuals made the bitwise steps easier to follow.  
+
+- **YouTube:** https://www.youtube.com/watch?v=orIgy2MjqrA  
+  - Explained why small input changes cause big output changes (avalanche).  
+  - Clarified collisions and why hashes are one-way.  
+
+- **Boot.dev Blog – “How SHA-2 Works (Step-by-Step, SHA-256)”**  
+  https://blog.boot.dev/cryptography/how-sha-2-works-step-by-step-sha-256/  
+  - Gave a simple walkthrough of rounds, message schedule, and functions.  
+  - Helped link `Ch`, `Maj`, and rotates to the full SHA-256 flow.  
+
