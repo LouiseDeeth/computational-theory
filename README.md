@@ -1,30 +1,32 @@
-# computational-theory
-
 ## References
-1. National Institute of Standards and Technology (NIST)
+
+1. **National Institute of Standards and Technology (NIST).**  
    *FIPS PUB 180-4: Secure Hash Standard (SHS).*  
-   August 2015. Available at:  
    https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf  
+   - I learned the official rules for the SHA-1 functions: `Ch(x, y, z)`, `Parity(x, y, z)`, and `Maj(x, y, z)`.
+   - I also learned how these bitwise operations are used inside the hashing process.
 
-2. Python Software Foundation.  
-   *Python 3.12 Language Reference — Expressions.*  
+2. **Python Software Foundation.**  
+   *Python 3.12 Language Reference - Expressions.*  
    https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations  
+   - I learned what the bitwise operators mean in Python: `&` (AND), `^` (XOR), and `~` (NOT).
+   - This helped me write the SHA-1 functions correctly.
 
-3. NumPy Developers.  
-   *NumPy v2.1 Manual — Data Types.*  
+3. **NumPy Developers.**  
+   *NumPy v2.1 Manual - Data Types.*  
    https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.uint32  
+   - I learned that `np.uint32` keeps numbers within a 32-bit range, like a real computer processor would.
+   - This helped me make sure the SHA-1 operations behave like 32-bit hardware.
 
-4. Python Software Foundation.  
-   *PEP 8 — Style Guide for Python Code.*  
-   https://peps.python.org/pep-0008/
+4. **Python Software Foundation.**  
+   *PEP 8 - Style Guide for Python Code.*  
+   https://peps.python.org/pep-0008/  
+   - Learned to limit lines to 79 characters for readability.
+   - Applied 4 spaces per indentation level.
+   - Ensured consistent comments and blank line spacing throughout the project.
 
-5. Sha256Algorithm.com.  
+5. **Sha256Algorithm.com.**  
    *Understanding the SHA-256 Algorithm.*  
-   Educational resource explaining the logical functions and internal
-   structure of SHA-1 and SHA-256.  
-   https://sha256algorithm.com/
-
-## PEP 8 Style guide for Python states:
-- Limit all lines to a maximum of 79 characters.
-- Use 4 spaces per indentation level.
-
+   https://sha256algorithm.com/  
+   - This website helped me see how the SHA-1 and SHA-256 functions work in practice.  
+   - It gave an easy explanation of how the bitwise operations mix data to make a secure hash.
